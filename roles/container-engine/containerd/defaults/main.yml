@@ -69,9 +69,9 @@ containerd_registries_mirrors:
 containerd_max_container_log_line_size: 16384
 
 # If enabled it will allow non root users to use port numbers <1024
-containerd_enable_unprivileged_ports: false
+containerd_enable_unprivileged_ports: true
 # If enabled it will allow non root users to use icmp sockets
-containerd_enable_unprivileged_icmp: false
+containerd_enable_unprivileged_icmp: true
 
 containerd_enable_selinux: false
 containerd_disable_apparmor: false
